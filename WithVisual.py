@@ -153,7 +153,7 @@ def click2():
 button_01 = tkinter.Button(window, text = "Начать построение!", command = click1)
 button_01.grid(column=1, row=3)
 
-button_02 = tkinter.Button(window, text = "Сохранить на результат", command = click2)
+button_02 = tkinter.Button(window, text = "Сохранить результат", command = click2)
 button_02.grid(column=1, row=4)
 
 
